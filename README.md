@@ -83,3 +83,50 @@ $$[Ag] + [mAb] \xrightleftharpoons[k_d]{k_a} [Ag\text{-}mAb]$$
 $$K_{eq} = \frac{k_a}{k_d} = \frac{[Ag\text{-}mAb]}{[Ag][mAb]} \quad ; \quad K_D = \frac{1}{K_{eq}}$$
 
 ---
+## 📈 Results & Conclusion
+
+This *in silico* research successfully demonstrated the feasibility of achieving a fully automated, nanocatalyst-amplified LFIA, leading to a **Distinction** award at **Imperial College London**.
+
+* **Simulation-Guided Design Success:** The 1D flow model effectively optimized the channel dimensions for "Design 2," identifying the specific lengths required to synchronize a multi-step assay into a seamless 10-minute automated window.
+* **Dimensionally Defined Design:** Numerical evidence confirmed that a **4 mm wide device** with channel lengths of **$L_1=35$ mm**, **$L_2=64$ mm**, and **$L_3=90$ mm** theoretically achieves full automation of sequential flow at precisely timed intervals.
+
+![Dimensioned Schematic of LFIA Design](design_blueprints/Dimensioned_Schematic.png)
+*Figure 2: Optimized device schematic showing the final calculated dimensions derived from Washburn and Darcy flow simulations.*
+
+* **Superiority of Nanobodies (Nb):** Kinetic simulations identified **Nanobody 59H10** as having the highest relative affinity towards p24, outperforming standard mAbs during the critical Phase 3 wash period.
+* **Final Impact:** The project proved that **In Silico Modeling** can accurately predict PoC device performance, significantly reducing the cost and time of physical prototyping in diagnostic R&D.
+
+---
+
+
+## 📂 Project Structure
+
+```text
+/Automated_LFIA_Simulation
+  ├── /notebooks
+  │     ├── 01_Fluid_Dynamics_and_LFA_Design_Optimization.ipynb
+  │     └── 02_Binding_Kinetics_Modeling.ipynb
+  ├── /design_blueprints
+  │     ├── LFA_Assembled_View.png          (SolidWorks Render)
+  │     └── Dimensioned_Schematic.png       (Simulation Results)
+  ├── /thesis_assets
+  │     └── MRes_Imperial_Thesis.pdf
+  ├── requirements.txt                      (Python Environment)
+  └── README.md
+
+```
+
+---
+
+## 🏆 Key Achievements & Impact
+
+* **Distinction Awarded:** The thesis was recognized for its high technical rigor and potential for real-world diagnostic impact.
+* **Validation of Automation:** Proved *in silico* that a multi-stage "wash-and-amplify" assay can be reduced to a single-step user action.
+* **Optimized Sensitivity:** Identified specific nanobody-nanoparticle pairings that increase signal output by >30% within the target 10-minute test window.
+
+---
+
+## ✉️ Contact
+
+For inquiries regarding In Silico Modeling or Point-of-Care device engineering, contact **Herbert Siu-Ho Wong** at [herbert.wong150@gmail.com].
+
