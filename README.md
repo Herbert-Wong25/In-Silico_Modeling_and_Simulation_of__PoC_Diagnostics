@@ -7,3 +7,17 @@ This repository showcases the computational research and design optimization for
 ## 🔬 Scientific Context
 
 Traditional Lateral Flow Assays (like rapid COVID tests) are fast but often lack the sensitivity required for early-stage disease detection. **Nanocatalysts (e.g., Platinum Nanoparticles - PtNPs)** can amplify signals to ELISA-like sensitivity, but they require precise, multi-step "wash and develop" sequences.
+
+This project utilized **In Silico Modeling** to:
+
+1. **Automate Reagent Delivery:** Using paper geometry and fluidic physics to time the arrival of amplification reagents without user intervention.
+2. **Optimize Molecular Capture:** Using kinetic modeling to compare the performance of Nanobodies (Nb) vs. Monoclonal Antibodies (mAb) under flow.
+
+## 🛠 Tech Stack & Dependencies
+
+* **Computational Modeling:** Python (NumPy, SciPy, Pandas)
+* **CAD/Design:** SolidWorks (Device architecture)
+* **Data Analysis:** Matplotlib, Seaborn
+* **Core Concepts:** Washburn’s Law, Langmuir Kinetics, Mass Transport, Microfluidics
+
+---
