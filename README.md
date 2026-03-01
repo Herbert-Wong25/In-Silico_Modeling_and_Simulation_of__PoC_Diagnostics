@@ -1,0 +1,2 @@
+# In-Silico_Modeling_and_Simulation_of__PoC_Diagnostics
+Imperial MRes Thesis (Distinction). A comprehensive research project focused on the simulation-guided design and kinetic modeling of automated, nanocatalyst-amplified Immunoassays. This project integrates fluid dynamics and binding kinetics to optimize next-generation Point-of-Care (PoC) diagnostic devices for rapid infectious disease detection.
