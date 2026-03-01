@@ -44,3 +44,42 @@ I modeled the chemical interaction at the test line to predict the Limit of Dete
 * **Finding:** Validated that **Nanobody 59H10** achieved superior capture efficiency in short time-frames compared to standard mAbs, making it the ideal candidate for rapid PoC detection.
 
 ---
+
+## 📊 Key Quantitative Metrics
+
+The project implemented the following mathematical models from the thesis to bridge the gap between fluidic delivery and molecular capture:
+
+### 1. Fluidic Flow Rate Modeling
+
+The capillary pressure ($P_c$) and travel velocity ($V$) were optimized to establish the automated timeline:
+
+**Eq.1: Simplified Capillary Pressure**
+
+
+$$P_c = \gamma \left( \frac{2 \cos(\theta)}{h} + \frac{2 \cos(\theta)}{w} \right)$$
+
+**Eq.2: Travel Velocity**
+
+
+$$V = k \frac{2 \cos(\theta)(h+w)}{6LC}$$
+
+**Eq.3: Linear Interpolation for Parameter Estimation**
+
+
+$$\frac{k - k_1}{w - w_1} = \frac{k_i - k_1}{w_i - w_1}$$
+
+### 2. Binding Kinetics Modeling
+
+The molecular capture and affinity were quantified using the law of mass action and equilibrium constants:
+
+**Eq.4: Law of Mass Action**
+
+
+$$[Ag] + [mAb] \xrightleftharpoons[k_d]{k_a} [Ag\text{-}mAb]$$
+
+**Eq.5: Dissociation Constant ($K_D$)**
+
+
+$$K_{eq} = \frac{k_a}{k_d} = \frac{[Ag\text{-}mAb]}{[Ag][mAb]} \quad ; \quad K_D = \frac{1}{K_{eq}}$$
+
+---
