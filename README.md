@@ -1,6 +1,6 @@
 # Modeling and Simulation of Automated PoC Diagnostics
 
-### **🌟 Awarded Distinction | MRes in Bioengineering, Imperial College London**
+### **🌟 Awarded Distinction | MRes in Bioengineering, Imperial College London (2020)**
 
 This repository showcases the computational research and design optimization for my Master's thesis. The project focused on the **simulation-guided development** of an automated, nanocatalyst-amplified Lateral Flow Immunoassay (LFIA). By integrating fluid dynamics and molecular binding kinetics, I developed a predictive model to automate complex, multi-step diagnostic assays into a single, user-friendly Point-of-Care (PoC) device.
 
@@ -13,8 +13,7 @@ This project utilized **In Silico Modeling** to:
 1. **Automate Reagent Delivery:** Using paper geometry and fluidic physics to time the arrival of amplification reagents without user intervention.
 2. **Optimize Molecular Capture:** Using kinetic modeling to compare the performance of Nanobodies (Nb) vs. Monoclonal Antibodies (mAb) under flow.
 
-![Schematic of LFA Design](design_blueprints/Dimensioned_Schematic.png)
-
+![Open View of Assembled LFA Device](design_blueprints/LFA_Assembled_View.png)
 *Figure 1: 3D assembly of the automated LFIA device designed in SolidWorks, featuring independent channels for sample, wash buffer, and amplification reagents.*
 
 ## 🛠 Tech Stack & Dependencies
