@@ -13,7 +13,8 @@ This project utilized **In Silico Modeling** to:
 1. **Automate Reagent Delivery:** Using paper geometry and fluidic physics to time the arrival of amplification reagents without user intervention.
 2. **Optimize Molecular Capture:** Using kinetic modeling to compare the performance of Nanobodies (Nb) vs. Monoclonal Antibodies (mAb) under flow.
 
-![Open View of Assembled LFA Device](design_blueprints/LFA_Assembled_View.png)
+![Schematic of LFA Design](design_blueprints/Dimensioned_Schematic.png)
+
 *Figure 1: 3D assembly of the automated LFIA device designed in SolidWorks, featuring independent channels for sample, wash buffer, and amplification reagents.*
 
 ## 🛠 Tech Stack & Dependencies
